@@ -55,3 +55,6 @@ if (is_uploaded_file($_FILES['fich1']['tmp_name'])) {
   move_uploaded_file($_FILES['fich1']['tmp_name'], $target_path);
 }
 ```
+
+### nota adicional
+Este exemplo assume que os ficheiros são imagens (mas não verifica). Após cada upload, mostra as imagens que se encontram armazenadas na pasta **uploads**.
